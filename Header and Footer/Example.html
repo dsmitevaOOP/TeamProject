@@ -29,6 +29,27 @@
             text-align: right;
             padding: 15px;
         }
+        iframe{
+            width: 80%;
+            margin: auto;
+            height: 440px;
+            border: none;
+        }
+        main{
+            display: inline;
+        }
+        #sidebar{
+            background-color: yellow;
+            width: 15%;
+            margin: 10px;
+            float: right;
+            height: 425px;
+            vertical-align: middle;
+            flex-wrap: wrap;
+        }
+        li{
+            list-style-type: none;
+        }
 
     </style>
 </head>
@@ -37,14 +58,29 @@
         <h1>Team Ruth's Page</h1>
         <div>
             <nav>
-                <a class="navigation" href="link">Media</a>
-                <a class="navigation" href="link">Articles</a>
-                <a class="navigation" href="link">Jokes</a>
-                <a class="navigation" href="link">About us</a>
+                <a class="navigation" href="home.html" target="iframeMain">Home</a>
+                <a class="navigation" href="media.html" target="iframeMain">Media</a>
+                <a class="navigation" href="articles.html" target="iframeMain">Articles</a>
+                <a class="navigation" href="jokes.html" target="iframeMain">Jokes</a>
+                <a class="navigation" href="about.html" target="iframeMain">About us</a>
             </nav>
         </div>
     </header>
-    <p>Main Content</p>
+
+    <main>
+        <iframe name="iframeMain" src="home.html"></iframe>
+    </main>
+
+    <nav id="sidebar">
+        <section>
+            <ul>
+                <li><a href="http://google.com">Google</a></li>
+                <li><a href="http://facebook.com">Facebook</a></li>
+                <li><a href="http://softuni.bg">Softuni</a></li>
+            </ul>
+        </section>
+    </nav>
+
     <footer>
         <a href="link"><img src="./css-validator.png" alt="CSS"></a>
         <a href="link"><img src="html-validator.png" alt="HTML"></a>
