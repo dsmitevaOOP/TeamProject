@@ -9,22 +9,38 @@
             font-family: Tahoma;
             color: darkblue;
         }
+        .iframe{
+            border: 2px dotted #F4A460;
+            width: 250px;
+            height: 200px;
+            margin: 25px;
+            border-radius: 25px;
+        }
+        a{
+            text-decoration: none;
+            color: #F4A460;
+        }
     </style>
 </head>
 <body>
-    <div>
+    <div style="float: left">
         <p>
-            Vladimir Iliev
+            <a href="Vladimir.html" target="imgbox"> Vladimir Iliev </a>
         </p>
         <p>
-            Dilyana Miteva
+            <a href="Dilyana.html" target="imgbox"> Dilyana Miteva </a>
         </p>
         <p>
-            Dimitar Bakardzhiev
+            <a href="Dimitar.html" target="imgbox">  Dimitar Bakardzhiev </a>
         </p>
         <p>
-            Ivailo Velkov
+            <a href="Ivailo.html" target="imgbox"> Ivailo Velkov </a>
         </p>
+    </div>
+    <div class="left-div">
+        <iframe class="iframe" scrolling="no" name="imgbox" >
+            <p>iframes is not supported</p>
+        </iframe>
     </div>
 </body>
 </html>
