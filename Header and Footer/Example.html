@@ -10,6 +10,8 @@
             font-family: Tahoma;
             background-color: lightslategrey;
             color: bisque;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
         }
         .navigation{
             border-radius: 7px;
@@ -50,15 +52,22 @@
         li{
             list-style-type: none;
         }
+        html, body{
+            height: 100%;
+        }
+        .footer{
+            margin-top:16%;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
 
     </style>
 </head>
 <body>
     <header>
-        <h1>Team Ruth's Page</h1>
+        <h1><a href="home.html" target="iframeMain" style="text-decoration: none"><img src="Title.png" style="margin-top: 20px;"></a></h1>
         <div>
             <nav>
-                <a class="navigation" href="home.html" target="iframeMain">Home</a>
                 <a class="navigation" href="media.html" target="iframeMain">Media</a>
                 <a class="navigation" href="articles.html" target="iframeMain">Articles</a>
                 <a class="navigation" href="jokes.html" target="iframeMain">Jokes</a>
@@ -81,7 +90,7 @@
         </section>
     </nav>
 
-    <footer>
+    <footer class="footer">
         <a href="link"><img src="./css-validator.png" alt="CSS"></a>
         <a href="link"><img src="html-validator.png" alt="HTML"></a>
         <a href="link"><img src="Copyright.JPG" alt="Copyrights" width="50px"></a>
