@@ -1,21 +1,29 @@
 .tabs {
-    position: relative;
-    min-height: 500px; /* This part sucks */
+    width: 900px;
+    height: 530px; /* This part sucks */
+    margin: 25px;
     clear: both;
-    margin: 25px 0;
+    position: relative;
+    border: 2px dotted #476077;
+    border-radius: 25px;
 }
 
 .tab {
+    margin-top: 30px;
     float: left;
 }
 
 .tab label {
-    background: #eee;
-    padding: 10px;
-    border: 1px solid #ccc;
-    margin-left: -1px;
+    margin-left: 0px;
     position: relative;
+    padding: 10px;
     left: 1px;
+    border: 1px solid #ccc;
+    background: #eee;
+}
+
+#first {
+    margin-left: 28px;
 }
 
 .tab [type=radio] {
@@ -23,20 +31,23 @@
 }
 
 .content {
+    width: 800px;
+    height: 400px;
+    margin: 0 auto;
+    padding: 20px;
     position: absolute;
-    top: 28px;
+    top: 60px;
     left: 0;
-    background: white;
     right: 0;
     bottom: 0;
-    padding: 20px;
     border: 1px solid #ccc;
+    background: white;
 }
 
 [type=radio]:checked ~ label {
-    background: white;
-    border-bottom: 1px solid white;
     z-index: 2;
+    border-bottom: 1px solid white;
+    background: white;
 }
 
 [type=radio]:checked ~ label ~ .content {
@@ -52,6 +63,6 @@ td:first-child {
     font-weight: bold;
 }
 td {
-    font-family: Verdana, Geneva, 'DejaVu Sans', sans-serif;
     padding: 10px;
+    font-family: Verdana, Geneva, 'DejaVu Sans', sans-serif;
 }

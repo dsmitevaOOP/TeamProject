@@ -4,3 +4,34 @@
 #killmyself{
     width: 40%;
 }
+.span{
+    margin-left: 100px;
+
+
+}
+.div-box{
+    margin-left: 199px;
+    width: 200px;
+
+}
+.img-box{
+    width: 700px;
+    height: 450px;
+    margin: 50px;
+    border: 2px  dashed #476077;
+}
+span{
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    color: #152C42;
+
+}
+span{
+    margin-top: 15px;
+    border-radius: 5px;
+    border: 2px solid #476077;
+    border-left-width: 10px;
+    width: 120px;
+}
