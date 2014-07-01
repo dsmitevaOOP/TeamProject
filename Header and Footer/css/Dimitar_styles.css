@@ -1,12 +1,12 @@
 img {
-  width: 250px;
-  height: 180px;
-  display:block;
+    width: 250px;
+    height: 180px;
+    display:block;
 }
 td:first-child {
-  font-weight: bold;
+    font-weight: bold;
 }
 td {
-  font-family: Verdana, Geneva, 'DejaVu Sans', sans-serif;
-  padding: 10px;
+    font-family: Verdana, Geneva, 'DejaVu Sans', sans-serif;
+    padding: 10px;
 }
