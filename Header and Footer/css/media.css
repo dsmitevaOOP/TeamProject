@@ -25,7 +25,10 @@ span{
 a{
     text-decoration: none;
     color: #152C42;
-
+}
+a:hover{
+    background-color: #476077;
+    color: #FFE4C4;
 }
 span{
     width: 120px;
