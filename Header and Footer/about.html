@@ -1,31 +1,120 @@
 <!DOCTYPE html>
 <html>
-
 <head lang="en">
     <meta charset="UTF-8">
-    <title>About</title>
+    <title></title>
     <link rel="stylesheet" href="css/about.css" type="text/css" media="screen">
 </head>
-
 <body>
-<div style="float: left">
-    <p>
-        <a href="Vladimir.html" target="imgbox"> Nerd One </a>
-    </p>
-    <p>
-        <a href="Dilyana.html" target="imgbox"> Nerd Two </a>
-    </p>
-    <p>
-        <a href="Dimitar.html" target="imgbox">  Nerd Three </a>
-    </p>
-    <p>
-        <a href="Ivailo.html" target="imgbox"> Nerd Four </a>
-    </p>
-</div>
-<div class="left-div">
-    <iframe class="iframe" scrolling="no" name="imgbox" >
-        <p>iframes is not supported</p>
-    </iframe>
+<div class="tabs">
+
+    <div class="tab" id="first">
+        <input type="radio" id="tab-1" name="tab-group-1" checked>
+        <label for="tab-1">Nerd One</label>
+
+        <div class="content">
+            <img src="img/avatars/pic_vladi.jpg" class="img" style="border-bottom-right-radius: 10px; border-bottom-left-radius: 5px" />
+            <table>
+                <tbody>
+                    <tr>
+                        <td>Name: </td>
+                        <td>Vladimir Iliev</td>
+                    </tr>
+                    <tr>
+                        <td>Age: </td>
+                        <td>18</td>
+                    </tr>
+                    <tr>
+                        <td>Occupation: </td>
+                        <td>Hobo, Fire Lord</td>
+                    </tr>
+                    <tr>
+                        <td>Education: </td>
+                        <td>In progress</td>
+                    </tr>
+                    <tr>
+                        <td>Programming experience: </td>
+                        <td>C#, Java, HTML5, CSS, Word, Paint</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="tab">
+        <input type="radio" id="tab-2" name="tab-group-1">
+        <label for="tab-2">Nerd Two</label>
+
+        <div class="content">
+            <img src="img/avatars/pic_mitko.jpg" />
+            <table>
+                <tbody>
+                    <tr>
+                        <td>Name: </td>
+                        <td>Dimitar Bakardzhiev</td>
+                    </tr>
+                    <tr>
+                        <td>Age: </td>
+                        <td>20</td>
+                    </tr>
+                    <tr>
+                        <td>Occupation: </td>
+                        <td>Student</td>
+                    </tr>
+                    <tr>
+                        <td>Education: </td>
+                        <td>91. German Language High School "Prof. Konstantin Galabov"</td>
+                    </tr>
+                    <tr>
+                        <td>Programming experience: </td>
+                        <td>Pascal, C++, C#, Java, HTML5, CSS, JavaScript, jQuery</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="tab">
+        <input type="radio" id="tab-3" name="tab-group-1">
+        <label for="tab-3">Nerd Three</label>
+
+        <div class="content">
+            <img src="img/avatars/dilyana.jpg" />
+            <table>
+                <tbody>
+                    <tr>
+                        <td>Name: </td>
+                        <td>Dilyana Miteva</td>
+                    </tr>
+                    <tr>
+                        <td>Age: </td>
+                        <td>21</td>
+                    </tr>
+                    <tr>
+                        <td>Occupation: </td>
+                        <td>Student</td>
+                    </tr>
+                    <tr>
+                        <td>Education: </td>
+                        <td>High School of Economics "Knyaz Simeon Tarnovsky"</td>
+                    </tr>
+                    <tr>
+                        <td>Programming experience: </td>
+                        <td>Pascal, C++, C#, OOP, Java, HTML5, CSS, WordPress</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="tab">
+        <input type="radio" id="tab-4" name="tab-group-1">
+        <label for="tab-4">Nerd Four</label>
+
+        <div class="content">
+            Ivailo
+        </div>
+    </div>
 </div>
 </body>
 </html>

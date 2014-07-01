@@ -10,9 +10,8 @@
 
 }
 .div-box{
-    margin-left: 199px;
     width: 200px;
-
+    margin-left: 199px;
 }
 .img-box{
     width: 700px;
@@ -29,9 +28,9 @@ a{
 
 }
 span{
+    width: 120px;
     margin-top: 15px;
-    border-radius: 5px;
     border: 2px solid #476077;
     border-left-width: 10px;
-    width: 120px;
+    border-radius: 5px;
 }
