@@ -2,23 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9fa34ec-31d2-410e-b8f3-6e00d54dce8e" name="Default" comment="Initial Commit">
-      <change type="DELETED" beforePath="C:\Users\Dilyana\Desktop\SoftUni\HTMLandCSS\TeamProject\Header and Footer\Dilyana.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Dilyana\Desktop\SoftUni\HTMLandCSS\TeamProject\Header and Footer\Dimitar.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Dilyana\Desktop\SoftUni\HTMLandCSS\TeamProject\Header and Footer\Ivailo.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Dilyana\Desktop\SoftUni\HTMLandCSS\TeamProject\Header and Footer\Vladimir.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Dilyana\Desktop\SoftUni\HTMLandCSS\TeamProject\Header and Footer\css\Dimitar_styles.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Dilyana\Desktop\SoftUni\HTMLandCSS\TeamProject\Header and Footer\css\Vladimir_styles.css" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Header and Footer/css/about.css" afterPath="$PROJECT_DIR$/Header and Footer/css/about.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Header and Footer/about.html" afterPath="$PROJECT_DIR$/Header and Footer/about.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Header and Footer/css/articles.css" afterPath="$PROJECT_DIR$/Header and Footer/css/articles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Header and Footer/articles.html" afterPath="$PROJECT_DIR$/Header and Footer/articles.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Header and Footer/css/home.css" afterPath="$PROJECT_DIR$/Header and Footer/css/home.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Header and Footer/home.html" afterPath="$PROJECT_DIR$/Header and Footer/home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Header and Footer/css/index.css" afterPath="$PROJECT_DIR$/Header and Footer/css/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Header and Footer/index.html" afterPath="$PROJECT_DIR$/Header and Footer/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Header and Footer/css/jokes.css" afterPath="$PROJECT_DIR$/Header and Footer/css/jokes.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Header and Footer/css/media.css" afterPath="$PROJECT_DIR$/Header and Footer/css/media.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TeamProject.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -86,8 +70,8 @@
       <file leaf-file-name="about.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Header and Footer/css/about.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7094017" vertical-offset="469" max-vertical-offset="1326">
-              <caret line="52" column="16" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
+            <state vertical-scroll-proportion="0.382906" vertical-offset="235" max-vertical-offset="1343">
+              <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -560,8 +544,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Header and Footer/css/about.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7094017" vertical-offset="469" max-vertical-offset="1326">
-          <caret line="52" column="16" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.382906" vertical-offset="235" max-vertical-offset="1343">
+          <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
           <folding />
         </state>
       </provider>

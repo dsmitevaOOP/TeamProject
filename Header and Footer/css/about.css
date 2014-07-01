@@ -44,14 +44,15 @@
     bottom: 0;
     border: 1px solid #476077;
     border-radius: 25px;
-    background: white;
+    background: #778899;
+    color: white;
 }
 
 [type=radio]:checked ~ label {
     z-index: 2;
     border-bottom: 1px solid white;
-    background: grey;
-    color: white;
+    background: #B3BCC6;
+    color: black;
 }
 
 [type=radio]:checked ~ label ~ .content {
