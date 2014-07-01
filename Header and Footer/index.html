@@ -3,69 +3,11 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title>Hearer and Footer example</title>
-    <style>
-        header{
-            text-align: center;
-            font-weight: bold;
-            font-family: Tahoma;
-            background-color: lightslategrey;
-            color: bisque;
-            border-bottom-left-radius: 10px;
-            border-bottom-right-radius: 10px;
-        }
-        .navigation{
-            border-radius: 7px;
-            border: 3px solid sandybrown;
-            width: 150px;
-            display: inline-block;
-            text-decoration: none;
-            margin: 10px;
-            color: bisque;
-        }
-        .navigation:hover{
-            background-color: sandybrown;
-            color: lightslategrey;
-        }
-        footer{
-            background-color: lightslategrey;
-            text-align: right;
-            padding: 15px;
-        }
-        iframe{
-            width: 80%;
-            margin: auto;
-            height: 440px;
-            border: none;
-        }
-        main{
-            display: inline;
-        }
-        #sidebar{
-            background-color: yellow;
-            width: 15%;
-            margin: 10px;
-            float: right;
-            height: 425px;
-            vertical-align: middle;
-            flex-wrap: wrap;
-        }
-        li{
-            list-style-type: none;
-        }
-        html, body{
-            height: 100%;
-        }
-        .footer{
-            margin-top:16%;
-            border-top-left-radius: 10px;
-            border-top-right-radius: 10px;
-        }
-
-    </style>
+    <link rel="stylesheet" href="css/index.css" type="text/css" media="screen">
 </head>
 <body>
     <header>
-        <h1><a href="home.html" target="iframeMain" style="text-decoration: none"><img src="Title.png" style="margin-top: 20px;"></a></h1>
+        <h1><a href="home.html" target="iframeMain" style="text-decoration: none"><img src="img/Title.png" style="margin-top: 20px;"></a></h1>
         <div>
             <nav>
                 <a class="navigation" href="media.html" target="iframeMain">Media</a>
@@ -91,9 +33,9 @@
     </nav>
 
     <footer class="footer">
-        <a href="link"><img src="./css-validator.png" alt="CSS"></a>
-        <a href="link"><img src="html-validator.png" alt="HTML"></a>
-        <a href="link"><img src="Copyright.JPG" alt="Copyrights" width="50px"></a>
+        <a href="link"><img src="img/css-validator.png" alt="CSS"></a>
+        <a href="link"><img src="img/html-validator.png" alt="HTML"></a>
+        <a href="link"><img src="img/Copyright.JPG" alt="Copyrights" width="50px"></a>
     </footer>
 </body>
 </html>
