@@ -1,0 +1,17 @@
+p{
+    font-size: 25px;
+    font-family: Tahoma;
+    color: darkblue;
+}
+.iframe{
+    border: 2px dotted #F4A460;
+    width: 650px;
+    height: 500px;
+    margin: 25px;
+    border-radius: 25px;
+    padding:20px;
+}
+a{
+    text-decoration: none;
+    color: #F4A460;
+}
