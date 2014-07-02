@@ -30,17 +30,6 @@ footer{
     background-color: lightslategrey;
 }
 
-iframe{
-    width: 80%;
-    height: 440px;
-    margin: auto;
-    border: none;
-}
-
-main{
-    display: inline;
-}
-
 #sidebar{
     width: 15%;
     height: 425px;
@@ -53,24 +42,35 @@ main{
     border-radius: 10px;
 
 }
+
+#sidebar img {
+    width: 70px;
+    height: 70px;
+}
+
 li{
     list-style-type: none;
+    width: 30px;
+    height: 30px;
     margin-left: 27pt;
-    margin-top: 20px;
+    margin-top: 70px;
 }
 
 ul:nth-child(first) {
-    margin-left: 27pt
+    margin-left: 20pt
 }
 
-html, body{
-    height: 100%;
-}
 .footer{
-    margin-top:16%;
+    margin-top:36%;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
-.main{
-    height: 100%;
+#main #wrapper {
+    height: 100px;
+    padding: 20px;
+    text-align: center;
+    font-family: consolas;
+    font-weight: bold;
+    font-size: 2em;
+    background-color: greenyellow;
 }

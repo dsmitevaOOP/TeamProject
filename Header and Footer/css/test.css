@@ -1,6 +1,82 @@
-.tabs {
+body{
+    background-color: #C1C9D1;
+}
+
+header{
+    text-align: center;
+    font-weight: bold;
+    color: #152C42;
+    background-color: lightslategrey;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.navigation{
+    display: inline-block;
+    width: 150px;
+    margin: 10px;
+    border: 3px solid #476077;
+    border-radius: 7px;
+    color: #152C42;
+    text-decoration: none;
+}
+
+.navigation:hover{
+    background-color: #476077;
+    color: #FFE4C4;
+}
+footer{
+    padding: 15px;
+    text-align: right;
+    background-color: lightslategrey;
+}
+
+#sidebar{
+    width: 15%;
+    height: 425px;
+    margin: 25px;
+    float: right;
+    vertical-align: middle;
+    flex-wrap: wrap;
+    background-color: #778899;
+    border: 3px solid #476077 ;
+    border-radius: 10px;
+
+}
+
+#sidebar img {
+    width: 70px;
+    height: 70px;
+}
+
+li{
+    list-style-type: none;
+    width: 30px;
+    height: 30px;
+    margin-left: 27pt;
+    margin-top: 70px;
+}
+
+ul:nth-child(first) {
+    margin-left: 20pt
+}
+
+.footer{
+    margin-top:38%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+
+
+/* main */
+
+main {
+    height: 50%;
+}
+
+main #wrapper .tabs {
     width: 900px;
-    height: 530px; /* This part sucks */
+    height: 60%; /* This part sucks */
     margin: 25px;
     clear: both;
     position: relative;
@@ -8,29 +84,31 @@
     border-radius: 25px;
 }
 
-.tab {
+main #wrapper .tab {
     margin-top: 30px;
     float: left;
+    border-radius: 15px;
 }
 
-.tab label {
-    margin-left: 0px;
+main #wrapper .tab label {
+    margin-left: 0;
     position: relative;
     padding: 10px;
     left: 1px;
-    border: 1px solid #ccc;
-    background: #eee;
+    border: 1px solid #476077;
+    color: #152C42;
+    background-color: #778899;
 }
 
 #first {
-    margin-left: 28px;
+    margin-left: 47px;
 }
 
-.tab [type=radio] {
+#wrapper .tab [type=radio] {
     display: none;
 }
 
-.content {
+#wrapper .content {
     width: 800px;
     height: 400px;
     margin: 0 auto;
@@ -40,29 +118,32 @@
     left: 0;
     right: 0;
     bottom: 0;
-    border: 1px solid #ccc;
-    background: white;
+    border: 1px solid #476077;
+    border-radius: 25px;
+    background: #778899;
+    color: white;
 }
 
-[type=radio]:checked ~ label {
+#wrapper [type=radio]:checked ~ label {
     z-index: 2;
     border-bottom: 1px solid white;
-    background: white;
+    background: #B3BCC6;
+    color: black;
 }
 
-[type=radio]:checked ~ label ~ .content {
+#wrapper [type=radio]:checked ~ label ~ .content {
     z-index: 1;
 }
 
-img {
+#wrapper img {
     width: 250px;
     height: 180px;
     display:block;
 }
-td:first-child {
+#wrapper td:first-child {
     font-weight: bold;
 }
-td {
+#wrapper td {
     padding: 10px;
     font-family: Verdana, Geneva, 'DejaVu Sans', sans-serif;
 }
