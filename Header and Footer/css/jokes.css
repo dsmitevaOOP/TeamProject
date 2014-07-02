@@ -1,7 +1,23 @@
-section {
-    background-color: skyblue;
-    border:10px solid greenyellow;
+@import url('common.css');
+
+.footer{
+    margin-top:38%;
 }
+
+/* jokes */
+
+main {
+    margin-top: 20px;
+    margin-left: 20px;
+    float: left;
+}
+
 article {
+    background-color: #778899;
+    width: 400px;
     margin: 15px;
+    padding: 20px;
+    color:  #152C42;
+    font-weight: bold;
+    border-radius: 20px;
 }
